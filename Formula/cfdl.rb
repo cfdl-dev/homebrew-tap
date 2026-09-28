@@ -9,35 +9,35 @@
 class Cfdl < Formula
   desc "Cash Flow Domain Language — compiler, engine, CLI and language server"
   homepage "https://cfdl.dev"
-  version "0.10.1"
+  version "0.11.0"
   license "PolyForm-Noncommercial-1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.10.1/cfdl-darwin-arm64"
-      sha256 "e7c8afca50ab2285a2ecc94fdcb343affbc11acd0178ca7dbbb784a168aee5c3"
+      url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.11.0/cfdl-darwin-arm64"
+      sha256 "87eed857f0b4777b55eb3463b70d9c9f38474b01ce43953d09182e86732a111d"
       resource "lsp" do
-        url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.10.1/cfdl-lsp-darwin-arm64"
-        sha256 "680c132a8e99d6bba6b0fee4e2a4a12304f0f0612b6ef574cacb4631831115f2"
+        url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.11.0/cfdl-lsp-darwin-arm64"
+        sha256 "d51dc59bc6b32325855a308d647cf8e6822c29204c5cb8a46ce716ad115fb3db"
       end
     end
     on_intel do
-      url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.10.1/cfdl-darwin-x64"
-      sha256 "c3e729e624b3cb07e63d087458ce90faabe4cddcfdd883a5080d28f213683b8e"
+      url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.11.0/cfdl-darwin-x64"
+      sha256 "e85626360d3afa2dd202ac3a22ffeeab83061ab976de01ddf95971c790d4c6b2"
       resource "lsp" do
-        url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.10.1/cfdl-lsp-darwin-x64"
-        sha256 "4f55720393d0dbac73522681d095dfbe29b895b751a0beb24e8cfda399d29f74"
+        url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.11.0/cfdl-lsp-darwin-x64"
+        sha256 "af5864245f05182e3efaae686ca7a9fed93c9375e2488cc352cb310af1faa4c7"
       end
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.10.1/cfdl-linux-x64"
-      sha256 "8f3cd452c08ada26b29b0609c87c2521c2249fddab12bef6a1ee6766001c11da"
+      url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.11.0/cfdl-linux-x64"
+      sha256 "ada93ef67608337be85b65e8855c3602e928b077aab9a2bff9ec0f897741b9a0"
       resource "lsp" do
-        url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.10.1/cfdl-lsp-linux-x64"
-        sha256 "be184e74c0463ba130b799e2b27dd03e88375cc3ee59f04a03272fe670a19da9"
+        url "https://github.com/cfdl-dev/cfdl-releases/releases/download/v0.11.0/cfdl-lsp-linux-x64"
+        sha256 "7a6d08c4175adfd1e276db89e194d24f5d65a9eb00e3038a010f42a7903bfa58"
       end
     end
   end
